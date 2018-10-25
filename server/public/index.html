@@ -8,7 +8,7 @@
     <script src="vendors/jquery-3.3.1.min.js"></script>
     <script src="scripts/client.js"></script>
     <link rel="stylesheet" href="vendors/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css-1/style.css">
     <link rel="icon" href="pictures/prime-icon.jpg">
 </head>
 <body>
@@ -18,16 +18,19 @@
                     <div class="navbar-header">
                         <a><img alt="Brand" src="pictures/prime-logo.png" width="100px" height="100px"></a>
                     </div>
+                    <ul id="heardAtPrime" class="form-group">
+                    <li>Heard at Prime</li>
+                    </ul>
                         <ul id="nav" class="nav navbar-nav navbar-right">
-                        <li class="navStyle active"><a href="#about">About</a></li>
-                        <li hidden class="navStyle active"><a href="#add">Add</a></li>
+                        <li id="aboutNav" class="navStyle active"><a href="#about">About</a></li>
+                        <li hidden id="addNav" class="navStyle active"><a href="#add">Add</a></li>
                         </ul>
                 </div>
         </nav>
     </section>
     <section>
         <div id="page1">
-            <h1 id="heardAtPrime">Quotes Heard at Prime</h1>
+            <h1 hidden>Quotes Heard at Prime</h1>
             <div id="quoteDiv">
                 <!--Quotes here-->
             </div>
@@ -38,6 +41,9 @@
             <p id="about">About</p>
             <div id="aboutDiv">
                 <!--About section here-->
+                <p id="aboutParagraph">We are the students of Prime Digital Academy. Sharing the quotes we've heard on campus.
+                Using only the finest selection of hand picked quotes. We the people, of Prime now
+                offer these magnificent quotes to be seen and shared by all. Thank you for visiting.</p>
             </div>
         </div>
     </section>
