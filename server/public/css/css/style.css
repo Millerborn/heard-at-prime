@@ -63,7 +63,7 @@ a {
     line-height: 500px;
     font-family: sans-serif;
     font-size: 75px;
-    color: white;
+    color: #eeeeee;
     background-color: white;
 }
 
@@ -117,20 +117,21 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 600px;
+    height: 800px;
     background-color:  #07aa9e;
 }
 
 #whiteBlock{
     align-self: center;
-    background-color:white;
-    height: 100px;
-    width:100px;
+    background-color:#04615a;
+    border-radius: 15px;;
+    height: 325px;
+    width:475px;
     transform: scale(1);
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    transition: transform 2s;
+    transition: transform 3s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,8 +172,10 @@ a {
 #front {
     animation:fade 8s linear infinite;
     transform: rotateY(0deg);
-    color: black;
+    font-family: cantarell;
+    color: #eeeeee;
     backface-visibility: hidden;
+    font-size: 40px;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     position: absolute;
@@ -185,7 +188,9 @@ a {
   #back {
     animation:fade 8s linear infinite;
     transform: rotateY(180deg);
-    color: black;
+    font-family: cantarell;
+    color: #eeeeee;
+    font-size: 40px;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
